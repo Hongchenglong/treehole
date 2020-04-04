@@ -1,0 +1,12 @@
+<!--pages/bottom_menu/bottom_menu.wxml-->
+<view class='bottomrow'>
+  <view class='bottomtab' bindtap="first_select">
+    <text class='bottomtabText' style='color:{{firco}}'>广场</text>
+  </view>
+  <view class='centerimg' bindtap="second_select">
+    <image class='bottomImg' src='/images/add.png'></image>
+  </view>
+  <view class='bottomtab' bindtap="third_select">
+    <text class='bottomtabText' style='color:{{secco}}'>我的</text>
+  </view>
+</view>
