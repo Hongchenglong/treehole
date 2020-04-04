@@ -1,0 +1,39 @@
+/* pages/load/load.wxss */
+
+.mai{
+  width: 80%;
+  height: 300rpx;
+  margin-top: 350rpx;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.but{
+  width: 70%;
+  height:80rpx;
+  background-color: #04be01;
+  border-radius: 10rpx;
+  align-content: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  font-size: 37rpx;
+  font-weight: bold;
+}
+
+.med{
+  color: #8a8a8a;
+  font-size: 40rpx;
+  text-align:center;
+  margin-top: 20rpx;
+}
+
+.txt{
+  width: 92%;
+  color: #8a8a8a;
+  font-size: 32rpx;
+  font-weight: 10rpx;
+  margin-top: 10rpx;
+  margin: auto;
+}

@@ -1,0 +1,248 @@
+[ 2020-04-01T23:13:22+08:00 ] ::1 /treehole/treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:13:51+08:00 ] ::1 /treehole/treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:14:13+08:00 ] ::1 /treehole/treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:18:43+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+
+[ 2020-04-01T23:20:23+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+
+[ 2020-04-01T23:20:31+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2020-04-01T23:21:31+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0008s ]
+
+[ 2020-04-01T23:25:42+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 126 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0004s ]
+
+[ 2020-04-01T23:25:48+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 126 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:28:10+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:28:50+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:29:10+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:29:35+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0002s ]
+
+[ 2020-04-01T23:29:48+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0005s ]
+
+[ 2020-04-01T23:29:52+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:30:10+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0004s ]
+
+[ 2020-04-01T23:31:49+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2020-04-01T23:31:52+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `message` WHERE `user_id` = 1  [ RunTime:0.0004s ]
+
+[ 2020-04-01T23:32:45+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0003s ]
+
+[ 2020-04-01T23:32:56+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0002s ]
+
+[ 2020-04-01T23:32:57+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages?user_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0002s ]
+
+[ 2020-04-01T23:34:41+08:00 ] ::1 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] Undefined index: username D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\UserController.class.php 第 14 行.
+
+[ 2020-04-01T23:34:49+08:00 ] ::1 /treehole/index.php/home/Message/get_one_user_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: user_id D:\phpstudy_pro\WWW\treehole\Application\Home\Controller\MessageController.class.php 第 119 行.
+SQL: SELECT * FROM `message` WHERE `user_id` = null  [ RunTime:0.0002s ]
+
+[ 2020-04-01T23:34:52+08:00 ] ::1 /treehole/index.php/home/Message/get_all_messages
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `message` ORDER BY id desc  [ RunTime:0.0002s ]
+

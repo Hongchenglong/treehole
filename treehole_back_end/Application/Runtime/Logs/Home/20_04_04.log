@@ -1,0 +1,579 @@
+[ 2020-04-04T10:26:09+08:00 ] 120.39.134.137 /treehole/index.php/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2020-04-04T10:26:20+08:00 ] 120.39.134.137 /treehole/index.php/home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2020-04-04T10:36:13+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: password_again /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 38 行.
+
+[ 2020-04-04T10:36:34+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T10:36:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: phone /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 22 行.
+
+[ 2020-04-04T10:36:55+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: password /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 30 行.
+
+[ 2020-04-04T10:37:10+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: password_again /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 38 行.
+
+[ 2020-04-04T10:37:25+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+
+[ 2020-04-04T10:37:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2020-04-04T10:43:23+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2020-04-04T10:47:01+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2020-04-04T14:00:15+08:00 ] 120.39.134.137 /treehole/index.php/home/index/test2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2020-04-04T14:00:33+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2020-04-04T14:00:38+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T14:00:44+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+ERR: SQLSTATE[HY000] [2002] No such file or directory
+
+[ 2020-04-04T14:05:06+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762998' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('oeong','17720762998','25d55ad283aa400af464c76d713c07ad','123.jpg') [ RunTime:0.0026s ]
+
+[ 2020-04-04T14:06:16+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762999' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('oeong','17720762999','25d55ad283aa400af464c76d713c07ad','123.jpg') [ RunTime:0.0024s ]
+
+[ 2020-04-04T19:27:54+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:28:04+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:28:10+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:36:19+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?username=%E6%9D%8E%E5%8C%A1%E5%B1%B1&phone=17720761001&password=123&password_again=123&face_url=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:36:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?username=%E6%9D%8E%E5%8C%A1%E5%B1%B1&phone=17720761001&password=123&password_again=123&face_url=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:36:52+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?username=123123&phone=17720761001&password=123&password_again=123&face_url=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:38:32+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?username=123&phone=17720761002&password=123&password_again=123&face_url=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:50:56+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign?username=10000&phone=17720762990&password=123&password_again=123&face_url=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ%2F132
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: username /usr/local/apache2/htdocs/treehole/Application/Home/Controller/UserController.class.php 第 14 行.
+
+[ 2020-04-04T19:52:22+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762990' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('1000','17720762990','202cb962ac59075b964b07152d234b70','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ/132') [ RunTime:0.0027s ]
+
+[ 2020-04-04T19:58:15+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720000000' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('1','17720000000','81dc9bdb52d04dc20036dbd8313ed055','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ/132') [ RunTime:0.0034s ]
+
+[ 2020-04-04T19:59:12+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('1','17720762997','c4ca4238a0b923820dcc509a6f75849b','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ/132') [ RunTime:0.0027s ]
+
+[ 2020-04-04T19:59:33+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T19:59:45+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-04-04T19:59:51+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T20:15:38+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762998' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T20:15:43+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762996' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('666','17720762996','202cb962ac59075b964b07152d234b70','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ/132') [ RunTime:0.0024s ]
+
+[ 2020-04-04T20:19:37+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762888' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('1','17720762888','202cb962ac59075b964b07152d234b70','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIeTbiaxRAOWlJAtrMjnRcgcVAf49ic8EErJJ2nZDe3dHQJ5stXXU4AeXf4iaibfibJ2xtDs4WLfLmrmqQ/132') [ RunTime:0.0027s ]
+
+[ 2020-04-04T20:21:27+08:00 ] 120.39.134.137 /treehole/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:10:53+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:11:03+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-04-04T21:11:35+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:13:54+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:14:09+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:01+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0145s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:29+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2020-04-04T21:16:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:16:42+08:00 ] 120.39.134.137 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:17:10+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '1772076299' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:20:18+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '177207629971' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:20:24+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '1772076299711111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:22:21+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762887' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:22:25+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762887' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:22:40+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2020-04-04T21:22:44+08:00 ] 59.58.0.71 /treehole/index.php/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '17720762997' LIMIT 1   [ RunTime:0.0003s ]
+

@@ -1,0 +1,20 @@
+<!--pages/enroll/enroll.wxml-->
+<view class='background'>
+	<view class='first'>
+		<!-- bindinput -->
+		<input id='name' placeholder='用户名' placeholder-class="plas" class='inputs' type='text' bindinput='usernameInput' />
+	</view>
+	<view class='second'>
+		<input id='phonenumber' placeholder='手机号' placeholder-class="plas" class='inputs' type='number' bindinput='phonenumberInput' />
+	</view>
+	<view class='second'>
+		<input id='psw' placeholder='登陆密码' placeholder-class="plas" class='inputs' type='password' bindinput='passwordInput' />
+	</view>
+	<view class='second'>
+		<input id='pswack' placeholder='确认密码' placeholder-class="plas" class='inputs' type='password' bindinput='passwordInputAck' />
+	</view>
+	<view id='btn' class='click' bindtap='regist'>注册</view>
+	<view class='cha' bindtap="signin">
+		<text class='no'>已有账号，点我登录</text>
+	</view>
+</view>
