@@ -14,11 +14,12 @@
       </view>
     </view>
     <view class='secondblock'>
-      <text class='content'>{{itemName.centent}}</text>
+      <text class='content'>{{itemName.content}}</text>
     </view>
     <view class='thirdblock'>
-      <image class='like' src='/images/like.png'></image>
-      <text class='num'>{{itemName.total_likes}}</text>
+      <!-- data-是dataset里的 -->
+      <image class='like' src='{{itemName.islike == 1 ? "/images/likeplus.png": "/images/like.png"}}' bindtap="like" id='{{itemName.id}}' data-id="{{itemName.id}}"></image>
+      <text class='num' wx:if="{{itemName.total_likes != 0}}">{{itemName.total_likes}}</text>
     </view>
   </view>
 </block>

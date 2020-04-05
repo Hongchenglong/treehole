@@ -1,57 +1,29 @@
 <!--pages/mine/mine.wxml-->
 <scroll-view class='scbg' scroll-y="true">
-  <view class='personalInf'>
-    <view class='deco'>
-      <open-data class='ava' type="userAvatarUrl"></open-data>
-    </view>
-    <open-data class='nn' type="userNickName"></open-data>
-  </view>
-  <view class='box'>
-    <view class='secondblock'>
-      <text class='content'>{{content}}</text>
-      <view class="tel">
-        <text class="showtime">{{timestamp}}</text>
-      </view>
-    </view>
-    <view class='thirdblock'>
-      <view class='combination'>
-        <image class="like" src="/images/like.png"></image>
-        <text class='num'>{{num}}</text>
-      </view>
-      <view class='del'>删除</view>
-    </view>
-  </view>
+	<view class='personalInf'>
+		<view class='deco'>
+			<open-data class='ava' type="userAvatarUrl"></open-data>
+		</view>
+		<open-data class='nn' type="userNickName"></open-data>
+	</view>
 
-  <view class='box'>
-    <view class='secondblock'>
-      <text class='content'>{{content}}</text>
-      <view class="tel">
-        <text class="showtime">{{timestamp}}</text>
-      </view>
-    </view>
-    <view class='thirdblock'>
-      <view class='combination'>
-        <image class="like" src="/images/like.png"></image>
-        <text class='num'>{{num}}</text>
-      </view>
-      <view class='del'>删除</view>
-    </view>
-  </view>
 
-  <view class='box'>
-    <view class='secondblock'>
-      <text class='content'>{{content}}</text>
-      <view class="tel">
-        <text class="showtime">{{timestamp}}</text>
-      </view>
-    </view>
-    <view class='thirdblock'>
-      <view class='combination'>
-        <image class="like" src="/images/like.png"></image>
-        <text class='num'>{{num}}</text>
-      </view>
-      <view class='del'>删除</view>
-    </view>
-  </view>
+	<block wx:for='{{list}}' wx:for-item='itemName' wx:for-index='id'>
+		<view class='box'>
+			<view class='secondblock'>
+				<text class='content'>{{itemName.content}}</text>
+				<view class="tel">
+					<text class="showtime">{{itemName.send_timestamp}}</text>
+				</view>
+			</view>
+			<view class='thirdblock'>
+				<view class='combination'>
+					<image class="like" src='{{itemName.total_likes > 0 ? "/images/likeplus.png": "/images/like.png"}}'></image>
+					<text class='num' wx:if='{{itemName.total_likes != 0}}'>{{itemName.total_likes}}</text> 
+				</view>
+				<view class='del' bindtap="delete" id='{{itemName.id}}'>删除</view>
+			</view>
+		</view>
+	</block>
 </scroll-view>
 <include src='/pages/bottom_menu/bottom_menu' />

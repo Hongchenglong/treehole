@@ -120,6 +120,7 @@ Page({
       })
     }
   },
+  
   phoneInput: function (e) {
     this.data.phone = e.detail.value
   },

@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    detail: "",
+    detail: "", // 树洞内容
   },
 
   bindTextAreaBlur: function(e) {
@@ -24,9 +24,67 @@ Page({
     console.log(that.data.detail)
 
     //与服务器交互
+    wx.request({
+      url: getApp().globalData.server + '/treehole/index.php/home/message/publish_new_message',
+      data: {
+        user_id: getApp().globalData.user.user_id,
+        username: getApp().globalData.user.username,
+        face_url: getApp().globalData.user.face_url,
+        content: that.data.detail,
+      },
+      method: "POST",
+      header: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      success: function (res) {
+        console.log(res.data)
+        if (res.data.error_code != 0) {
+          wx.showModal({
+            title: '哎呀～',
+            content: '出错了呢！' + res.data.data.msg,
+            success: function (res) {
+              if (res.confirm) {
+                console.log('用户点击确定')
+              } else if (res.cancel) {
+                console.log('用户点击取消')
+              }
+            }
+          })
+        } else if (res.data.error_code == 0) {
+          
+          wx.showModal({
+            title: '恭喜！',
+            showCancel: false,
+            content: '发布成功！',
+            success: function (res) { },
+            complete: function (res) {
+              wx.reLaunch({
+                url: '/pages/square/square'
+              })
+            }
+          })
+        }
+      },
+      fail: function (res) {
+        wx.showModal({
+          title: '哎呀～',
+          content: '网络不在状态呢！',
+          success: function (res) {
+            if (res.confirm) {
+              console.log('用户点击确定')
+            } else if (res.cancel) {
+              console.log('用户点击取消')
+            }
+          }
+        })
+      },
+      complete: function() {
+        wx.hideLoading()  // 隐藏 loading 提示框
+      }
+    })
 
     setTimeout(function () {
-      wx.hideLoading()
+      wx.hideLoading()  // 2秒后隐藏加载框
     }, 2000)
   },
 

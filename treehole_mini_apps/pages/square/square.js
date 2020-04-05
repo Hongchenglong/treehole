@@ -7,35 +7,7 @@ Page({
   data: {
     firco: "#000000",
     secco: "#979797",
-    list: [{
-        face_url: "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=447979932,3108003765&fm=26&gp=0.jpg",
-        username: "哆啦B梦",
-        send_timestamp: "2019-7-6 14:42",
-        centent: "阅读，是一次心灵的艺术之旅。前辈们留下了大量优秀的作品，通过这些传世之作给我们以启迪，教会我们如何感受世界。那些震撼心灵的好书往往意义深远，让人相逢恨晚。",
-        total_likes: 2,
-      },
-      {
-        face_url: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562409664468&di=da6c500dd77003e15ccf360c979ce2cb&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201408%2F05%2F20140805182358_CckFB.thumb.700_0.png",
-        username: "哆啦C梦",
-        send_timestamp: "2019-8-6 15:14",
-        centent: "阅读，是一次心灵的艺术之旅。",
-        total_likes: 6,
-      },
-      {
-        face_url: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562409732760&di=38f8a56fcbb4d2a6434f0e75df73db7b&imgtype=0&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201504%2F02%2F20150402H1413_nRNyd.jpeg",
-        username: "天线宝宝",
-        send_timestamp: "2019-8-8 14:42",
-        centent: "阅读，是一次心灵的艺术之旅。前辈们留下了大量优秀的作品，通过这些传世之作给我们以启迪，教会我们如何感受世界。那些震撼心灵的好书往往意义深远，让人相逢恨晚。",
-        total_likes: 9,
-      },
-      {
-        face_url: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563004541&di=0012d0c0ee52206b1e5dd617467e9f46&imgtype=jpg&er=1&src=http%3A%2F%2Fimg5q.duitang.com%2Fuploads%2Fitem%2F201507%2F08%2F20150708123847_cXsx3.jpeg",
-        username: "皮卡丘",
-        send_timestamp: "2019-1d-6 14:42",
-        centent: "阅读，是一次心灵的艺术之旅。前辈们留下了大量优秀的作品，通过这些传世之作给我们以启迪，教会我们如何感受世界。那些震撼心灵的好书往往意义深远，让人相逢恨晚。",
-        total_likes: 11,
-      }
-    ]
+    list: []
   },
 
   first_select: function() {
@@ -56,12 +28,137 @@ Page({
     })
   },
 
+  like: function(e) {
+    var that = this
+    var list = that.data.list
+    console.log("id of like", e.target.id)
+    // 前端只能保证用户在当前页面点一次赞，刷新后就不能保证了
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id == e.target.id) {
+        if (list[i].islike == 1) {
+          wx.showModal({
+            title: '提示！',
+            content: '已经点过赞了哦，不能更赞了~',
+            showCancel: false,
+            success: function (res) { },
+          })
+       } else {
+      // 与服务器交互
+      wx.request({
+        url: getApp().globalData.server + '/treehole/index.php/home/message/do_like',
+        data: {
+          message_id: e.target.id,
+          user_id: getApp().globalData.user.user_id,
+        },
+        method: "POST",
+        header: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        success: function (res) {
+          console.log(res.data)
+          if (res.data.error_code != 0) {
+            wx.showModal({
+              title: '哎呀～',
+              content: '出错了呢！' + res.data.msg,
+              success: function (res) {
+                if (res.confirm) {
+                  console.log('用户点击确定')
+                } else if (res.cancel) {
+                  console.log('用户点击取消')
+                }
+              }
+            })
+          } else if (res.data.error_code == 0) {
+            var list = that.data.list
+            for (var i = 0; i < list.length; i++) {
+              if (list[i].id == e.target.id) {
+                list[i].islike = 1
+                list[i].total_likes++
+                that.setData({
+                  list: list
+                })
+              }
+            }
+          }
+        },
+        fail: function (res) {
+          wx.showModal({
+            title: '哎呀～',
+            content: '网络不在状态呢！',
+            success: function (res) {
+              if (res.confirm) {
+                console.log('用户点击确定')
+              } else if (res.cancel) {
+                console.log('用户点击取消')
+              }
+            }
+          })
+        },
+        complete: function() {
+          wx.hideLoading()  // 取消加载框
+        }
+      })
+    }}}
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    var that = this
+    // wx.showLoading({
+    //   title: '加载中',
+    // })
 
+    wx.request({
+      url: getApp().globalData.server + '/treehole/index.php/home/message/get_all_messages',
+      data: {},
+      method: "POST",
+      header: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      success: function (res) {
+        console.log(res.data)
+        if (res.data.error_code != 0) {
+          wx.showModal({
+            title: '哎呀～',
+            content: '出错了呢！' + res.data.msg,
+            success: function (res) {
+              if (res.confirm) {
+                console.log('用户点击确定')
+              } else if (res.cancel) {
+                console.log('用户点击取消')
+              }
+            }
+          })
+        } else if (res.data.error_code == 0) {
+          that.setData({
+            list: res.data.data
+          })
+          // that.data.list = res.data.data // 不会触发刷新
+          console.log(that.data.list)
+        }
+      },
+      fail: function (res) {
+        wx.showModal({
+          title: '哎呀～',
+          content: '网络不在状态呢！',
+          success: function (res) {
+            if (res.confirm) {
+              console.log('用户点击确定')
+            } else if (res.cancel) {
+              console.log('用户点击取消')
+            }
+          }
+        })
+      },
+      complete: function() {
+      }
+    })
+
+    setTimeout(function () {
+      wx.hideLoading()  // 加载框
+    }, 2000)
   },
 
   /**
