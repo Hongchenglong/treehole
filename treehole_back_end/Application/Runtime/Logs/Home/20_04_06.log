@@ -1,0 +1,13 @@
+[ 2020-04-06T11:21:09+08:00 ] ::1 /treehole_back_end/index.php/home/user/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016015s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15359030930' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: face_url D:\phpstudy_pro\WWW\treehole_back_end\Application\Home\Controller\UserController.class.php 第 77 行.
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('aha?','15359030930','202cb962ac59075b964b07152d234b70',NULL) [ RunTime:0.0407s ]
+NOTIC: [8] Undefined index: face_url D:\phpstudy_pro\WWW\treehole_back_end\Application\Home\Controller\UserController.class.php 第 90 行.
+
