@@ -19,7 +19,7 @@ class User extends BaseController {
             $return_data['msg'] = '参数不足: username';
 
             return json($return_data);
-            // $this->ajaxReturn($return_data); tp3的用法
+            // return json($return_data); tp3的用法
         }
 
         if (empty($_POST['phone'])) {
@@ -105,4 +105,68 @@ class User extends BaseController {
         }
     }
 
+    /**
+     * 用户登录
+     * @return [type] [description]
+     */
+    public function login()
+    {
+
+        // 校验参数是否存在
+
+        if (empty($_POST['phone'])) {
+            $return_data = array();
+            $return_data['error_code'] = 1;
+            $return_data['msg'] = '参数不足: phone';
+
+            return json($return_data);
+        }
+
+        if (empty($_POST['password'])) {
+            $return_data = array();
+            $return_data['error_code'] = 1;
+            $return_data['msg'] = '参数不足: password';
+
+            return json($return_data);
+        }
+
+
+        // 查询用户
+        $User = Db('User');
+
+        // 构造查询条件
+        $where = array();
+        $where['phone'] = $_POST['phone'];
+        $user = $User->where($where)->find();
+
+        if ($user) {
+            // 如果查询到该手机号用户
+            if (md5($_POST['password']) != $user['password']) {
+                $return_data = array();
+                $return_data['error_code'] = 3;
+                $return_data['msg'] = '密码不正确，请重新输入';
+
+                return json($return_data);
+            } else {
+                // 如果密码相等
+                $return_data = array();
+                $return_data['error_code'] = 0;
+                $return_data['msg'] = '登录成功';
+
+                $return_data['data']['user_id'] = $user['id'];
+                $return_data['data']['username'] = $user['username'];
+                $return_data['data']['phone'] = $user['phone'];
+                $return_data['data']['face_url'] = $user['face_url'];
+
+                return json($return_data);
+            }
+        } else {
+            // 用户不存在
+            $return_data = array();
+            $return_data['error_code'] = 2;
+            $return_data['msg'] = '不存在该手机号用户，请注册';
+
+            return json($return_data);
+        }
+    }
 }
