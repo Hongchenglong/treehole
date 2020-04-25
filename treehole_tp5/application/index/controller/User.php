@@ -2,8 +2,6 @@
 
 namespace app\index\controller;
 
-use \think\Db;
-
 class User extends BaseController {
     /**
      * 用户注册
@@ -79,7 +77,7 @@ class User extends BaseController {
             // 密码经过md5函数加密，得到32位字符串
             $data['password'] = md5($_POST['password']);
             
-            // dump($data);
+            dump($data);
             // 插入数据
             // 返回新增数据的自增主键，可以使用getLastInsID方法
             $result = $User->insertGetId($data);
