@@ -31,14 +31,14 @@ Page({
         title: '提示！',
         content: '手机号长度有误，请重新输入！',
         showCancel: false,
-        success(res) {}
+        success(res) { }
       })
     } else if (!myreg.test(that.data.phone)) {
       wx.showModal({
         title: '提示！',
         content: '请输入正确的手机号码！',
         showCancel: false,
-        success(res) {}
+        success(res) { }
       })
     } else if (that.data.password == '') {
       wx.showModal({
@@ -53,6 +53,8 @@ Page({
       // })
       wx.request({
         url: getApp().globalData.server + '/treehole/index.php/home/user/login',
+        // url: getApp().globalData.server + '/cqcq/public/index.php/index/user/login',
+
         data: {
           phone: that.data.phone,
           password: that.data.password,
@@ -68,7 +70,7 @@ Page({
               title: '提示！',
               content: res.data.msg,
               showCancel: false,
-              success(res) {}
+              success(res) { }
             })
           } else if (res.data.error_code != 0) {
             wx.showModal({
@@ -82,8 +84,7 @@ Page({
                 }
               }
             })
-          }
-          else if (res.data.error_code == 0) {
+          } else if (res.data.error_code == 0) {
             getApp().globalData.user = res.data.data
             wx.showModal({
               title: '恭喜！',
@@ -120,7 +121,7 @@ Page({
       })
     }
   },
-  
+
   phoneInput: function (e) {
     this.data.phone = e.detail.value
   },
@@ -142,7 +143,7 @@ Page({
   onReady: function () {
 
   },
-
+  
   /**
    * 生命周期函数--监听页面显示
    */
